@@ -25,8 +25,8 @@ Final APP:
 
 Added Loading Symbol:
 
-<a href="http://stackoverflow.com/questions/2509711/display-loading-image-while-post-with-ajax" ></a>
+<a href="http://stackoverflow.com/questions/2509711/display-loading-image-while-post-with-ajax" >Loading Symbol</a>
 
 Git page:
 
-<a href="https://paulnewman-m.github.io/Weather-App/"></a>
+<a href="https://paulnewman-m.github.io/Weather-App/"> Git Page (Weather App)</a>
