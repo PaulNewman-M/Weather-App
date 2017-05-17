@@ -21,3 +21,12 @@ How to resolve unknow error's with  command+j :
 Final APP:
 
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495007827/Screen_Shot_2017-05-17_at_2.56.41_AM_vzixoy.png" />
+
+
+Added Loading Symbol:
+
+<a href="http://stackoverflow.com/questions/2509711/display-loading-image-while-post-with-ajax" ></a>
+
+Git page:
+
+<a href="https://paulnewman-m.github.io/Weather-App/"></a>
