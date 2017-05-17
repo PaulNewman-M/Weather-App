@@ -7,7 +7,7 @@ Without Promise and then the ajax url fail to load and executes remaining code w
 
 <a href="https://www.youtube.com/watch?v=2d7s3spWAzo">Related videos About Promise Advance coding </a>
 
-<a href="http://weather.gfc.state.ga.us/Info/WXexp.aspx> Sky Conditions (cloud : 0 -100)</a>
+<a href="http://weather.gfc.state.ga.us/Info/WXexp.aspx"> Sky Conditions (cloud : 0 -100)</a>
 
 
 
