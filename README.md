@@ -40,4 +40,4 @@ Forum To Discuss
 
 Screen Shot 2017-05-17 at 6.31.01 PM
 
-<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495065397/Screen_Shot_2017-05-17_at_6.31.01_PM_i9sweq.p" ></img>
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495065397/Screen_Shot_2017-05-17_at_6.31.01_PM_i9sweq.png" ></img>
