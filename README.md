@@ -13,9 +13,11 @@ Without Promise and then the ajax url fail to load and executes remaining code w
 JQuery to display html image: 
 <a href="http://www.jquerybyexample.net/2013/04/how-to-display-load-images-from-json-file-jquery.html" > How to use JSON icon image path to display in html </a>
 
-How to resolve unknow erroe's with crom command+j :
+How to resolve unknow error's with  command+j :
+
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495007750/Screen_Shot_2017-05-17_at_2.54.47_AM_cfvhay.png" />
 
 
 Final APP:
+
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495007827/Screen_Shot_2017-05-17_at_2.56.41_AM_vzixoy.png" />
