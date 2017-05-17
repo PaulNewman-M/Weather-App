@@ -30,3 +30,14 @@ Added Loading Symbol:
 Git page:
 
 <a href="https://paulnewman-m.github.io/Weather-App/"> Git Page (Weather App)</a>
+
+** Second Update: ** Mobile Responsive
+
+Forum To Discuss
+
+<a href="https://forum.freecodecamp.com/t/one-of-the-best-api-for-weather-app-review-and-lets-discuss/116897"> Free Code Camp Forum</a>
+
+
+Screen Shot 2017-05-17 at 6.31.01 PM
+
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495065397/Screen_Shot_2017-05-17_at_6.31.01_PM_i9sweq.p" ></img>
