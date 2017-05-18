@@ -68,12 +68,12 @@ getPosition();
 2.Use only codepen<mark> pen</mark> address instead of <mark>full</mark> pen.
 3.Solved By adding container class and only one div to whole page and increaseing the size of container to 60px.
 
-<img style="height:50%"src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495092623/Screen_Shot_2017-05-18_at_2.28.33_AM_lqn3oo.png"></img>
+<img  src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495092623/Screen_Shot_2017-05-18_at_2.28.33_AM_lqn3oo.png"></img>
 
 
 New Mobile First Device View:
 
-<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495094133/Screen_Shot_2017-05-18_at_2.54.37_AM_miaey1.pn" ></img>
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495094133/Screen_Shot_2017-05-18_at_2.54.37_AM_miaey1.png" ></img>
 
 
 
