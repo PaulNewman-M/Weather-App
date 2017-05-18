@@ -61,3 +61,21 @@ function getPosition() {
 }
 getPosition();
 ```
+
+*** Third Version ***
+
+1.Problem is with codepen full address,its not the exact mobile view
+2.Use only codepen<mark> pen</mark> address instead of <mark>full</mark> pen.
+3.Solved By adding container class and only one div to whole page and increaseing the size of container to 60px.
+
+<img  src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495092623/Screen_Shot_2017-05-18_at_2.28.33_AM_lqn3oo.png"></img>
+
+
+New Mobile First Device View:
+
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495094133/Screen_Shot_2017-05-18_at_2.54.37_AM_miaey1.png" ></img>
+
+
+
+
+
