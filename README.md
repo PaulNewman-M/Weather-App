@@ -48,7 +48,7 @@ Screen Shot 2017-05-17 at 6.31.01 PM
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495068225/Screen_Shot_2017-05-17_at_7.41.25_PM_irjx8u.png"></img>
 
 Resolved By: (Hidding at time of Loading and showing Again)
- ~~~
+‡‡‡
 function getPosition() {
  $('button').hide();// hide this while showing at time of loading
     lat(function (latitude, longitude) {
@@ -60,4 +60,4 @@ function getPosition() {
   
 }
 getPosition();
-~~~
+‡‡‡
