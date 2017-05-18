@@ -41,3 +41,23 @@ Forum To Discuss
 Screen Shot 2017-05-17 at 6.31.01 PM
 
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495065397/Screen_Shot_2017-05-17_at_6.31.01_PM_i9sweq.png" ></img>
+
+
+** Found Bug **
+
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495068225/Screen_Shot_2017-05-17_at_7.41.25_PM_irjx8u.png"></img>
+
+Resolved By: (Hidding at time of Loading and showing Again)
+ 
+unction getPosition() {
+ $('button').hide();// hide this while showing at time of loading
+    lat(function (latitude, longitude) {
+        var l = latitude + 
+    "," + longitude;  
+     // alert(l);
+     
+      fun(l);//Passing latitude and logitude
+    });
+  
+}
+getPosition();
