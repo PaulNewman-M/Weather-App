@@ -36,9 +36,13 @@ var $target= $("#target");
   
  // data: "format=json&lang=en",
   ajaxCall.done (function( data ) {
+<<<<<<< HEAD
     weather_result=data;
       $('#loadingmessage').hide();
     $('button').show();
+=======
+         $('#loadingmessage').hide();
+>>>>>>> eef16ecdfd66340280e5bfc16a778dcc867a64e4
     var img="https:";
          img +=data.current.condition.icon;   // weather icon
     if(data.current.is_day==0){     // if night 
