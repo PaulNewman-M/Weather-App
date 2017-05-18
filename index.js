@@ -57,10 +57,10 @@ var $target= $("#target");
     $('body').css("background-image", "url(https://res.cloudinary.com/duqwfkttw/image/upload/v1494994728/giphy_3_k8rrek.gif)"); 
     }
     else  if(data.current.cloud>=20&&data.current.cloud<30){
-    $('body').css("background-image", "url(http://res.cloudinary.com/duqwfkttw/image/upload/v1495067194/giphy_8_hn1rlu.gif)"); 
+    $('body').css("background-image", "url(https://res.cloudinary.com/duqwfkttw/image/upload/v1495067194/giphy_8_hn1rlu.gif)"); 
     }
      else  {
-    $('body').css("background-image", "url(http://res.cloudinary.com/duqwfkttw/image/upload/v1494994728/giphy_3_k8rrek.gif)"); 
+    $('body').css("background-image", "url(https://res.cloudinary.com/duqwfkttw/image/upload/v1494994728/giphy_3_k8rrek.gif)"); 
     }}
     
         $("#my").html(data.location.name +","+data.location.region);
