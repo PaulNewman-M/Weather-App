@@ -1,12 +1,13 @@
-body{
-
- background-size:100%,100%;
- font-size:30px;
-  height:1366px;
-  color:white;
-  position: relative;
-  font-family:Monospace,Inknut Antiqua;
+body,html{
+ font-size:35px;
+  height:1766px;
+  color:#FFF59D  ;
+  font-family:fantasy;
  background-size: cover;
   background-repeat:no-repeat;
+  background-position:left;
 }
 
+.container{
+  font-size:60px;
+}
