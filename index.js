@@ -1,3 +1,5 @@
+var weather_result='';
+
 function lat(callback) {
     navigator.geolocation.getCurrentPosition(function (position) {
         var lat = position.coords.latitude;
@@ -9,7 +11,7 @@ function lat(callback) {
 }
 
 function getPosition() {
-
+ $('button').hide();// hide this while showing at time of loading
     lat(function (latitude, longitude) {
         var l = latitude + 
     "," + longitude;  
@@ -22,6 +24,7 @@ getPosition();
 
 function fun(p){ 
   //alert("first"+p);
+
 var $target= $("#target");
  var $tweet= $("#tweet");
  var ajaxCall= $.ajax({ 
@@ -33,12 +36,15 @@ var $target= $("#target");
   
  // data: "format=json&lang=en",
   ajaxCall.done (function( data ) {
+    weather_result=data;
+      $('#loadingmessage').hide();
+    $('button').show();
     var img="https:";
          img +=data.current.condition.icon;   // weather icon
     if(data.current.is_day==0){     // if night 
      // alert(img);
        if(data.current.cloud>=0&&data.current.cloud<=100){
-          $('body').css("background-image", "url(http://res.cloudinary.com/duqwfkttw/image/upload/v1495003736/giphy_4_icaphx.gif)");
+          $('body').css("background-image", "url(https://res.cloudinary.com/duqwfkttw/image/upload/v1495003736/giphy_4_icaphx.gif)");
      }}
     
       else{  
@@ -51,10 +57,10 @@ var $target= $("#target");
     $('body').css("background-image", "url(https://res.cloudinary.com/duqwfkttw/image/upload/v1494994728/giphy_3_k8rrek.gif)"); 
     }
     else  if(data.current.cloud>=20&&data.current.cloud<30){
-    $('body').css("background-image", "url(https://res.cloudinary.com/duqwfkttw/image/upload/v1494994891/PSJCsb_krg8pn.gif)"); 
+    $('body').css("background-image", "url(http://res.cloudinary.com/duqwfkttw/image/upload/v1495067194/giphy_8_hn1rlu.gif)"); 
     }
      else  {
-    $('body').css("background-image", "url(https://res.cloudinary.com/duqwfkttw/image/upload/v1494994995/Sunrise-1024x576_abckfp.jpg)"); 
+    $('body').css("background-image", "url(http://res.cloudinary.com/duqwfkttw/image/upload/v1494994728/giphy_3_k8rrek.gif)"); 
     }}
     
         $("#my").html(data.location.name +","+data.location.region);
@@ -65,13 +71,21 @@ var $target= $("#target");
     $('#list').html(data.current.condition.text);
    
 
-    $('#c').click(function(){
-      $(".tem").html( data.current.temp_c);
-    //  $("#c").html( "<span id='f'>°F</span>");
-});
-     $('#f').click(function(){
-      $(".tem").html( data.current.temp_f );
-       // $("#f").html( "<span id='c'>°C</span>");
+     $('#unit').click(function(){
+     
+      var v=document.getElementById("unit").text;//get id value
+      //alert(v);
+       if(v=='°C'){
+         $(".tem").html(data.current.temp_f);
+         $("#unit").html("°F");
+         
+       }
+       else{
+         $(".tem").html(data.current.temp_c);
+         $("#unit").html("°C");
+       }
+                 
+    
 });
       })
   

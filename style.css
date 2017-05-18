@@ -1,7 +1,12 @@
 body{
-  
- font-size:45px;
+
+ background-size:100%,100%;
+ font-size:30px;
+  height:1366px;
   color:white;
+  position: relative;
   font-family:Monospace,Inknut Antiqua;
-background-size:100%;
+ background-size: cover;
+  background-repeat:no-repeat;
 }
+
