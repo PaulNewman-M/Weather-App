@@ -12,6 +12,7 @@ function lat(callback) {
 
 function getPosition() {
  $('button').hide();// hide this while showing at time of loading
+  $('#fcc').hide(); 
     lat(function (latitude, longitude) {
         var l = latitude + 
     "," + longitude;  
@@ -39,6 +40,7 @@ var $target= $("#target");
     weather_result=data;
       $('#loadingmessage').hide();
     $('button').show();
+     $('#fcc').show();
     var img="https:";
          img +=data.current.condition.icon;   // weather icon
     if(data.current.is_day==0){     // if night 
@@ -96,6 +98,3 @@ var $target= $("#target");
    
   
 }// function close fun
- 
-
-
