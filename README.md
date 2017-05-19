@@ -100,7 +100,7 @@ Second problem is with codepen full adress ,its not the exact mobile view output
 
 Learn cover,50%,100%,content,auto
 
-<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&preval=cover" />
+<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&preval=cover" >W3schools</a>
 
 
 
