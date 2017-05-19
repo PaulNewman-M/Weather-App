@@ -96,6 +96,11 @@ Second problem is with codepen full adress ,its not the exact mobile view output
 
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495170477/Screen_Shot_2017-05-19_at_12.00.44_AM_ijh9an.png" />
 
+## Important css property for background image 
+
+Learn cover,50%,100%,content,auto
+
+<a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&preval=cover" />
 
 
 
