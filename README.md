@@ -82,6 +82,21 @@ Finall App:
 added buttons social networking
 ~~~
 
+** About codepen and git Page mobile view issue
+
+1.img-responsive is not working working with background image so, its useless to use
+
+2.<meta name="viewport" content="width=device-width"> is also useless because its not responsive to background image.
+
+<a href="https://css-tricks.com/snippets/html/responsive-meta-tag/">About Meta ViewPort</a>
+
+3.The First issue is solved by **background-size:cover **
+Second problem is with codepen full adress ,its not the exact mobile view output,here for use the normal address pen/QwerW
+
+
+<img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495170477/Screen_Shot_2017-05-19_at_12.00.44_AM_ijh9an.png" />
+
+
 
 
 
