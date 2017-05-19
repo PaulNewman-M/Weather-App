@@ -18,7 +18,7 @@ How to resolve unknow error's with  command+j :
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495007750/Screen_Shot_2017-05-17_at_2.54.47_AM_cfvhay.png" />
 
 
-Final APP:
+* Final APP:
 
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495007827/Screen_Shot_2017-05-17_at_2.56.41_AM_vzixoy.png" />
 
@@ -31,7 +31,7 @@ Git page:
 
 <a href="https://paulnewman-m.github.io/Weather-App/"> Git Page (Weather App)</a>
 
-** Second Update: ** Mobile Responsive
+* Second Update: ** Mobile Responsive
 
 Forum To Discuss
 
@@ -62,7 +62,7 @@ function getPosition() {
 getPosition();
 ```
 
-*** Third Version ***
+* Third Version ***
 
 1.Problem is with codepen full address,its not the exact mobile view.
 2.<p>Use only codepen<mark> pen</mark> address instead of <mark>full</mark> pen.</p>
@@ -76,7 +76,7 @@ New Mobile First Device View:
 <img src="http://res.cloudinary.com/duqwfkttw/image/upload/v1495094133/Screen_Shot_2017-05-18_at_2.54.37_AM_miaey1.png" ></img>
 
 
-Finall App: 
+### Finall App: 
 
 ~~~
 added buttons social networking
@@ -98,7 +98,7 @@ Second problem is with codepen full adress ,its not the exact mobile view output
 
 ## Important css property for background image 
 
-Learn cover,50%,100%,content,auto
+Learn cover 50% 100% content,auto
 
 <a href="https://www.w3schools.com/cssref/playit.asp?filename=playcss_background-size&preval=cover" >W3schools</a>
 
