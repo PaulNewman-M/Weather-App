@@ -82,7 +82,7 @@ Finall App:
 added buttons social networking
 ~~~
 
-** About codepen and git Page mobile view issue
+* About codepen and git Page mobile view issue
 
 1.img-responsive is not working working with background image so, its useless to use
 
