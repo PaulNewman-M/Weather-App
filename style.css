@@ -1,20 +1,15 @@
 body,html{
  font-size:35px;
-  min-height:100%;
-  color:white  ;
+  background-height:100%;
+  color:#FFF59D  ;
   font-family:fantasy;
  background-size: cover;
   background-repeat:no-repeat;
   background-position:left;
-  
 }
 
-.footer { 
-  margin-top:100px  ;
-    display: ;
-}
 .container{
-font-size:40px;
+  font-size:60px;
 }
 
 .btn-linkedin {
