@@ -55,7 +55,7 @@ var $target= $("#target");
     }
      else  if(data.current.cloud>=60&&data.current.cloud<90){
     $('body').css("background-image", "url(http://res.cloudinary.com/duqwfkttw/image/upload/o_69/v1495164447/Sean_R_Heavey_2_1_nffbjf.jpg)");  }
-     else  if(data.current.cloud>=30&&data.current.cloud<60){
+          else  if(data.current.cloud>=30&&data.current.cloud<60){
     $('body').css("background-image", "url(https://res.cloudinary.com/duqwfkttw/image/upload/v1494994728/giphy_3_k8rrek.gif)"); 
     }
     else  if(data.current.cloud>=20&&data.current.cloud<30){
@@ -98,3 +98,6 @@ var $target= $("#target");
    
   
 }// function close fun
+ 
+
+
