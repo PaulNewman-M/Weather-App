@@ -1,0 +1,22 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Local Weather Conditions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulNewman-M/Weather-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulNewman-M/Weather-App/issues"
+  },
+  "homepage": "https://github.com/PaulNewman-M/Weather-App#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}
